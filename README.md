@@ -1,4 +1,4 @@
-![Image of HomePage](https://github.com/malikulle/Ecommerce/images/1.png)
+![Image of HomePage](https://github.com/malikulle/Ecommerce/blob/master/images/1.png?raw=true)
 ![Image of RegisterPage](https://github.com/malikulle/Ecommerce/images/2.png)
 ![Image of LoginPage](https://github.com/malikulle/Ecommerce/images/3.png)
 ![Image of ProductDetail](https://github.com/malikulle/Ecommerce/images/4.png)

@@ -1,0 +1,401 @@
+2020-07-28 20:46:04.8756||INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\malik\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2020-07-28 20:46:10.8813||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2020-07-28 20:46:10.8996||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2020-07-28 20:46:10.8996||INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\malik\Desktop\Projects\ECommerceShop\ECommerce\ECommerce.Api 
+2020-07-28 20:46:10.9661|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2.0 GET https://localhost:44309/swagger/index.html   
+2020-07-28 20:46:10.9661|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2.0 OPTIONS https://localhost:44309/api/categories   
+2020-07-28 20:46:10.9661|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2.0 GET https://localhost:44309//img/profile.png   
+2020-07-28 20:46:10.9956|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2020-07-28 20:46:11.0958|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2.0 GET https://localhost:44309/api/categories   
+2020-07-28 20:46:11.0958|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 130.0431ms 204  
+2020-07-28 20:46:11.0958|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2020-07-28 20:46:11.0958|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2020-07-28 20:46:11.0958|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '//img/profile.png'. Physical path: 'C:\Users\malik\Desktop\Projects\ECommerceShop\ECommerce\ECommerce.Api\wwwroot\img\profile.png' 
+2020-07-28 20:46:11.1192|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 155.9252ms 200 image/png 
+2020-07-28 20:46:11.2470|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 283.0488ms 200 text/html;charset=utf-8 
+2020-07-28 20:46:11.2872|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2.0 GET https://localhost:44309/swagger/swagger-ui-bundle.js   
+2020-07-28 20:46:11.2872|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2.0 GET https://localhost:44309/swagger/swagger-ui.css   
+2020-07-28 20:46:11.2985|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2.0 GET https://localhost:44309/swagger/swagger-ui-standalone-preset.js   
+2020-07-28 20:46:11.3188|6|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The file /swagger-ui.css was not modified 
+2020-07-28 20:46:11.3188|6|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The file /swagger-ui-bundle.js was not modified 
+2020-07-28 20:46:11.3188|6|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The file /swagger-ui-standalone-preset.js was not modified 
+2020-07-28 20:46:11.3188|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 34.2048ms 304 text/css 
+2020-07-28 20:46:11.3236|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 36.3261ms 304 application/javascript 
+2020-07-28 20:46:11.3236|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 28.4517ms 304 application/javascript 
+2020-07-28 20:46:11.8004|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2.0 GET https://localhost:44309/swagger/V1/swagger.json   
+2020-07-28 20:46:11.9296|2|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|Successfully validated the token. 
+2020-07-28 20:46:11.9379|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'ECommerce.Api.Controllers.CategoriesController.GetCategories (ECommerce.Api)' 
+2020-07-28 20:46:11.9821|3|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "GetCategories", controller = "Categories"}. Executing controller action with signature System.Linq.IQueryable`1[ECommerce.Entity.Models.Category] GetCategories() on controller ECommerce.Api.Controllers.CategoriesController (ECommerce.Api). 
+2020-07-28 20:46:12.1947|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 394.3151ms 200 application/json;charset=utf-8 
+2020-07-28 20:46:12.5125|1|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[ECommerce.Entity.Models.Category, ECommerce.Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+2020-07-28 20:46:12.5420|2|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action ECommerce.Api.Controllers.CategoriesController.GetCategories (ECommerce.Api) in 553.1033ms 
+2020-07-28 20:46:12.5420|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'ECommerce.Api.Controllers.CategoriesController.GetCategories (ECommerce.Api)' 
+2020-07-28 20:46:12.5420|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 1453.607ms 200 application/json; charset=utf-8 
+2020-07-28 20:46:12.5986|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2.0 OPTIONS https://localhost:44309/api/products/0?page=1   
+2020-07-28 20:46:12.5986|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2020-07-28 20:46:12.5986|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 3.1449ms 204  
+2020-07-28 20:46:12.6096|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2.0 GET https://localhost:44309/api/products/0?page=1   
+2020-07-28 20:46:12.6096|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2020-07-28 20:46:12.6096|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2020-07-28 20:46:12.6242|2|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|Successfully validated the token. 
+2020-07-28 20:46:12.6242|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'ECommerce.Api.Controllers.ProductsController.GetProducts (ECommerce.Api)' 
+2020-07-28 20:46:12.6423|3|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "GetProducts", controller = "Products"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetProducts(System.Nullable`1[System.Int32], Int32) on controller ECommerce.Api.Controllers.ProductsController (ECommerce.Api). 
+2020-07-28 20:46:12.9218|1|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'ECommerce.Api.Models.ProductListModel'. 
+2020-07-28 20:46:12.9349|2|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action ECommerce.Api.Controllers.ProductsController.GetProducts (ECommerce.Api) in 291.1993ms 
+2020-07-28 20:46:12.9349|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'ECommerce.Api.Controllers.ProductsController.GetProducts (ECommerce.Api)' 
+2020-07-28 20:46:12.9349|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 329.0653ms 200 application/json; charset=utf-8 
+2020-07-28 20:46:12.9616|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2.0 GET https://localhost:44309//img/d7b993857fb6467998f05d8bacbcb617828.jpg   
+2020-07-28 20:46:12.9616|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2.0 GET https://localhost:44309//img/145231269f8840e8a57e0fe512315178209.jpg   
+2020-07-28 20:46:12.9616|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2.0 GET https://localhost:44309//img/7.jpg   
+2020-07-28 20:46:12.9772|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '//img/7.jpg'. Physical path: 'C:\Users\malik\Desktop\Projects\ECommerceShop\ECommerce\ECommerce.Api\wwwroot\img\7.jpg' 
+2020-07-28 20:46:12.9772|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 17.5489ms 200 image/jpeg 
+2020-07-28 20:46:12.9772|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '//img/d7b993857fb6467998f05d8bacbcb617828.jpg'. Physical path: 'C:\Users\malik\Desktop\Projects\ECommerceShop\ECommerce\ECommerce.Api\wwwroot\img\d7b993857fb6467998f05d8bacbcb617828.jpg' 
+2020-07-28 20:46:12.9810|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '//img/145231269f8840e8a57e0fe512315178209.jpg'. Physical path: 'C:\Users\malik\Desktop\Projects\ECommerceShop\ECommerce\ECommerce.Api\wwwroot\img\145231269f8840e8a57e0fe512315178209.jpg' 
+2020-07-28 20:46:12.9810|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 32.5442ms 200 image/jpeg 
+2020-07-28 20:46:12.9810|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 21.3941ms 200 image/jpeg 
+2020-07-28 20:49:37.6782|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2.0 OPTIONS https://localhost:44309/api/categories   
+2020-07-28 20:49:37.6848|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2020-07-28 20:49:37.6848|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 13.6765ms 204  
+2020-07-28 20:49:37.6848|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2.0 GET https://localhost:44309/api/categories   
+2020-07-28 20:49:37.6848|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2020-07-28 20:49:37.6989|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2020-07-28 20:49:37.6989|2|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|Successfully validated the token. 
+2020-07-28 20:49:37.6989|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'ECommerce.Api.Controllers.CategoriesController.GetCategories (ECommerce.Api)' 
+2020-07-28 20:49:37.6989|3|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "GetCategories", controller = "Categories"}. Executing controller action with signature System.Linq.IQueryable`1[ECommerce.Entity.Models.Category] GetCategories() on controller ECommerce.Api.Controllers.CategoriesController (ECommerce.Api). 
+2020-07-28 20:49:37.7270|1|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[ECommerce.Entity.Models.Category, ECommerce.Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+2020-07-28 20:49:37.7386|2|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action ECommerce.Api.Controllers.CategoriesController.GetCategories (ECommerce.Api) in 24.4682ms 
+2020-07-28 20:49:37.7386|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'ECommerce.Api.Controllers.CategoriesController.GetCategories (ECommerce.Api)' 
+2020-07-28 20:49:37.7386|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 49.647ms 200 application/json; charset=utf-8 
+2020-07-28 20:49:37.7585|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2.0 OPTIONS https://localhost:44309/api/products/0?page=1   
+2020-07-28 20:49:37.7585|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2020-07-28 20:49:37.7585|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 2.2002ms 204  
+2020-07-28 20:49:37.7659|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2.0 GET https://localhost:44309/api/products/0?page=1   
+2020-07-28 20:49:37.7659|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2020-07-28 20:49:37.7659|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2020-07-28 20:49:37.7659|2|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|Successfully validated the token. 
+2020-07-28 20:49:37.7659|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'ECommerce.Api.Controllers.ProductsController.GetProducts (ECommerce.Api)' 
+2020-07-28 20:49:37.7659|3|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "GetProducts", controller = "Products"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetProducts(System.Nullable`1[System.Int32], Int32) on controller ECommerce.Api.Controllers.ProductsController (ECommerce.Api). 
+2020-07-28 20:49:37.7919|1|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'ECommerce.Api.Models.ProductListModel'. 
+2020-07-28 20:49:37.7933|2|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action ECommerce.Api.Controllers.ProductsController.GetProducts (ECommerce.Api) in 18.075ms 
+2020-07-28 20:49:37.7933|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'ECommerce.Api.Controllers.ProductsController.GetProducts (ECommerce.Api)' 
+2020-07-28 20:49:37.7933|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 30.1558ms 200 application/json; charset=utf-8 
+2020-07-28 20:49:43.6348|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2.0 OPTIONS https://localhost:44309/api/categories   
+2020-07-28 20:49:43.6365|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2020-07-28 20:49:43.6365|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 3.8706ms 204  
+2020-07-28 20:49:43.6365|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2.0 GET https://localhost:44309/api/categories   
+2020-07-28 20:49:43.6365|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2020-07-28 20:49:43.6365|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2020-07-28 20:49:43.6365|2|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|Successfully validated the token. 
+2020-07-28 20:49:43.6522|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'ECommerce.Api.Controllers.CategoriesController.GetCategories (ECommerce.Api)' 
+2020-07-28 20:49:43.6522|3|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "GetCategories", controller = "Categories"}. Executing controller action with signature System.Linq.IQueryable`1[ECommerce.Entity.Models.Category] GetCategories() on controller ECommerce.Api.Controllers.CategoriesController (ECommerce.Api). 
+2020-07-28 20:49:43.6672|1|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[ECommerce.Entity.Models.Category, ECommerce.Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+2020-07-28 20:49:43.6672|2|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action ECommerce.Api.Controllers.CategoriesController.GetCategories (ECommerce.Api) in 14.4891ms 
+2020-07-28 20:49:43.6672|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'ECommerce.Api.Controllers.CategoriesController.GetCategories (ECommerce.Api)' 
+2020-07-28 20:49:43.6672|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 31.4234ms 200 application/json; charset=utf-8 
+2020-07-28 20:49:43.6836|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2.0 OPTIONS https://localhost:44309/api/products/0?page=1   
+2020-07-28 20:49:43.6836|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2020-07-28 20:49:43.6836|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 2.207ms 204  
+2020-07-28 20:49:43.6836|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2.0 GET https://localhost:44309/api/products/0?page=1   
+2020-07-28 20:49:43.6836|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2020-07-28 20:49:43.6836|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2020-07-28 20:49:43.6836|2|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|Successfully validated the token. 
+2020-07-28 20:49:43.6836|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'ECommerce.Api.Controllers.ProductsController.GetProducts (ECommerce.Api)' 
+2020-07-28 20:49:43.6836|3|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "GetProducts", controller = "Products"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetProducts(System.Nullable`1[System.Int32], Int32) on controller ECommerce.Api.Controllers.ProductsController (ECommerce.Api). 
+2020-07-28 20:49:43.7026|1|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'ECommerce.Api.Models.ProductListModel'. 
+2020-07-28 20:49:43.7026|2|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action ECommerce.Api.Controllers.ProductsController.GetProducts (ECommerce.Api) in 9.8686ms 
+2020-07-28 20:49:43.7026|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'ECommerce.Api.Controllers.ProductsController.GetProducts (ECommerce.Api)' 
+2020-07-28 20:49:43.7026|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 17.7094ms 200 application/json; charset=utf-8 
+2020-07-28 20:49:47.8584|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2.0 OPTIONS https://localhost:44309/api/products/getById/20   
+2020-07-28 20:49:47.8584|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2020-07-28 20:49:47.8584|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 5.5335ms 204  
+2020-07-28 20:49:47.8584|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2.0 GET https://localhost:44309//img/undefined   
+2020-07-28 20:49:47.8584|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2.0 GET https://localhost:44309/api/products/getById/20   
+2020-07-28 20:49:47.8584|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2020-07-28 20:49:47.8584|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2020-07-28 20:49:47.8584|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 4.506ms 404  
+2020-07-28 20:49:47.8786|2|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|Successfully validated the token. 
+2020-07-28 20:49:47.8786|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'ECommerce.Api.Controllers.ProductsController.GetById (ECommerce.Api)' 
+2020-07-28 20:49:47.8876|3|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "GetById", controller = "Products"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetById(Int32) on controller ECommerce.Api.Controllers.ProductsController (ECommerce.Api). 
+2020-07-28 20:49:48.0248|1|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type '<>f__AnonymousType4`7[[System.Int32, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Nullable`1[[System.Decimal, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[<>f__AnonymousType5`3[[System.Int32, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], ECommerce.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'. 
+2020-07-28 20:49:48.0304|2|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action ECommerce.Api.Controllers.ProductsController.GetById (ECommerce.Api) in 141.6832ms 
+2020-07-28 20:49:48.0304|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'ECommerce.Api.Controllers.ProductsController.GetById (ECommerce.Api)' 
+2020-07-28 20:49:48.0304|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 164.2358ms 200 application/json; charset=utf-8 
+2020-07-28 20:52:09.5179|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2.0 GET https://localhost:44309//img/145231269f8840e8a57e0fe512315178209.jpg   
+2020-07-28 20:52:09.5318|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '//img/145231269f8840e8a57e0fe512315178209.jpg'. Physical path: 'C:\Users\malik\Desktop\Projects\ECommerceShop\ECommerce\ECommerce.Api\wwwroot\img\145231269f8840e8a57e0fe512315178209.jpg' 
+2020-07-28 20:52:09.5318|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 33.4957ms 200 image/jpeg 
+2020-07-28 20:52:35.8272|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2.0 OPTIONS https://localhost:44309/api/categories   
+2020-07-28 20:52:35.8272|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2020-07-28 20:52:35.8408|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 13.6376ms 204  
+2020-07-28 20:52:35.8408|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2.0 GET https://localhost:44309/api/categories   
+2020-07-28 20:52:35.8408|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2020-07-28 20:52:35.8408|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2020-07-28 20:52:35.8408|2|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|Successfully validated the token. 
+2020-07-28 20:52:35.8408|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'ECommerce.Api.Controllers.CategoriesController.GetCategories (ECommerce.Api)' 
+2020-07-28 20:52:35.8408|3|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "GetCategories", controller = "Categories"}. Executing controller action with signature System.Linq.IQueryable`1[ECommerce.Entity.Models.Category] GetCategories() on controller ECommerce.Api.Controllers.CategoriesController (ECommerce.Api). 
+2020-07-28 20:52:35.8408|1|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[ECommerce.Entity.Models.Category, ECommerce.Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+2020-07-28 20:52:35.8548|2|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action ECommerce.Api.Controllers.CategoriesController.GetCategories (ECommerce.Api) in 7.8445ms 
+2020-07-28 20:52:35.8548|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'ECommerce.Api.Controllers.CategoriesController.GetCategories (ECommerce.Api)' 
+2020-07-28 20:52:35.8548|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 18.0493ms 200 application/json; charset=utf-8 
+2020-07-28 20:52:35.8548|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2.0 OPTIONS https://localhost:44309/api/products/0?page=1   
+2020-07-28 20:52:35.8548|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2020-07-28 20:52:35.8548|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 1.5826ms 204  
+2020-07-28 20:52:35.8702|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2.0 GET https://localhost:44309/api/products/0?page=1   
+2020-07-28 20:52:35.8702|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2020-07-28 20:52:35.8702|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2020-07-28 20:52:35.8702|2|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|Successfully validated the token. 
+2020-07-28 20:52:35.8702|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'ECommerce.Api.Controllers.ProductsController.GetProducts (ECommerce.Api)' 
+2020-07-28 20:52:35.8702|3|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "GetProducts", controller = "Products"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetProducts(System.Nullable`1[System.Int32], Int32) on controller ECommerce.Api.Controllers.ProductsController (ECommerce.Api). 
+2020-07-28 20:52:35.8702|1|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'ECommerce.Api.Models.ProductListModel'. 
+2020-07-28 20:52:35.8702|2|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action ECommerce.Api.Controllers.ProductsController.GetProducts (ECommerce.Api) in 4.4903ms 
+2020-07-28 20:52:35.8702|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'ECommerce.Api.Controllers.ProductsController.GetProducts (ECommerce.Api)' 
+2020-07-28 20:52:35.8702|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 14.2059ms 200 application/json; charset=utf-8 
+2020-07-28 20:52:38.7241|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2.0 OPTIONS https://localhost:44309/api/products/getById/16   
+2020-07-28 20:52:38.7241|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2.0 GET https://localhost:44309//img/undefined   
+2020-07-28 20:52:38.7241|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2020-07-28 20:52:38.7241|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 3.3368ms 404  
+2020-07-28 20:52:38.7241|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 4.2202ms 204  
+2020-07-28 20:52:38.7341|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2.0 GET https://localhost:44309/api/products/getById/16   
+2020-07-28 20:52:38.7341|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2020-07-28 20:52:38.7341|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2020-07-28 20:52:38.7341|2|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|Successfully validated the token. 
+2020-07-28 20:52:38.7341|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'ECommerce.Api.Controllers.ProductsController.GetById (ECommerce.Api)' 
+2020-07-28 20:52:38.7341|3|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "GetById", controller = "Products"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetById(Int32) on controller ECommerce.Api.Controllers.ProductsController (ECommerce.Api). 
+2020-07-28 20:52:38.7518|1|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type '<>f__AnonymousType4`7[[System.Int32, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Nullable`1[[System.Decimal, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[<>f__AnonymousType5`3[[System.Int32, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], ECommerce.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'. 
+2020-07-28 20:52:38.7518|2|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action ECommerce.Api.Controllers.ProductsController.GetById (ECommerce.Api) in 13.295ms 
+2020-07-28 20:52:38.7518|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'ECommerce.Api.Controllers.ProductsController.GetById (ECommerce.Api)' 
+2020-07-28 20:52:38.7518|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 22.9221ms 200 application/json; charset=utf-8 
+2020-07-28 20:52:47.5676|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2.0 OPTIONS https://localhost:44309/api/categories   
+2020-07-28 20:52:47.5676|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2020-07-28 20:52:47.5676|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 2.2916ms 204  
+2020-07-28 20:52:47.5676|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2.0 GET https://localhost:44309/api/categories   
+2020-07-28 20:52:47.5676|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2020-07-28 20:52:47.5676|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2020-07-28 20:52:47.5742|2|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|Successfully validated the token. 
+2020-07-28 20:52:47.5742|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'ECommerce.Api.Controllers.CategoriesController.GetCategories (ECommerce.Api)' 
+2020-07-28 20:52:47.5742|3|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "GetCategories", controller = "Categories"}. Executing controller action with signature System.Linq.IQueryable`1[ECommerce.Entity.Models.Category] GetCategories() on controller ECommerce.Api.Controllers.CategoriesController (ECommerce.Api). 
+2020-07-28 20:52:47.5742|1|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[ECommerce.Entity.Models.Category, ECommerce.Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+2020-07-28 20:52:47.5742|2|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action ECommerce.Api.Controllers.CategoriesController.GetCategories (ECommerce.Api) in 5.4037ms 
+2020-07-28 20:52:47.5742|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'ECommerce.Api.Controllers.CategoriesController.GetCategories (ECommerce.Api)' 
+2020-07-28 20:52:47.5742|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 12.3159ms 200 application/json; charset=utf-8 
+2020-07-28 20:52:47.5742|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2.0 OPTIONS https://localhost:44309/api/products/0?page=1   
+2020-07-28 20:52:47.5895|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2020-07-28 20:52:47.5895|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 1.356ms 204  
+2020-07-28 20:52:47.5895|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2.0 GET https://localhost:44309/api/products/0?page=1   
+2020-07-28 20:52:47.5895|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2020-07-28 20:52:47.5895|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2020-07-28 20:52:47.5895|2|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|Successfully validated the token. 
+2020-07-28 20:52:47.5895|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'ECommerce.Api.Controllers.ProductsController.GetProducts (ECommerce.Api)' 
+2020-07-28 20:52:47.5895|3|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "GetProducts", controller = "Products"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetProducts(System.Nullable`1[System.Int32], Int32) on controller ECommerce.Api.Controllers.ProductsController (ECommerce.Api). 
+2020-07-28 20:52:47.5895|1|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'ECommerce.Api.Models.ProductListModel'. 
+2020-07-28 20:52:47.5895|2|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action ECommerce.Api.Controllers.ProductsController.GetProducts (ECommerce.Api) in 4.7757ms 
+2020-07-28 20:52:47.5895|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'ECommerce.Api.Controllers.ProductsController.GetProducts (ECommerce.Api)' 
+2020-07-28 20:52:47.5895|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 10.0859ms 200 application/json; charset=utf-8 
+2020-07-28 20:54:19.9122|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2.0 OPTIONS https://localhost:44309/api/categories   
+2020-07-28 20:54:19.9215|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2020-07-28 20:54:19.9215|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 17.6428ms 204  
+2020-07-28 20:54:19.9514|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2.0 GET https://localhost:44309/api/categories   
+2020-07-28 20:54:19.9514|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2020-07-28 20:54:19.9667|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2020-07-28 20:54:19.9667|2|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|Successfully validated the token. 
+2020-07-28 20:54:19.9667|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'ECommerce.Api.Controllers.CategoriesController.GetCategories (ECommerce.Api)' 
+2020-07-28 20:54:19.9816|3|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "GetCategories", controller = "Categories"}. Executing controller action with signature System.Linq.IQueryable`1[ECommerce.Entity.Models.Category] GetCategories() on controller ECommerce.Api.Controllers.CategoriesController (ECommerce.Api). 
+2020-07-28 20:54:20.0344|1|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[ECommerce.Entity.Models.Category, ECommerce.Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+2020-07-28 20:54:20.0430|2|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action ECommerce.Api.Controllers.CategoriesController.GetCategories (ECommerce.Api) in 58.331ms 
+2020-07-28 20:54:20.0430|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'ECommerce.Api.Controllers.CategoriesController.GetCategories (ECommerce.Api)' 
+2020-07-28 20:54:20.0430|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 101.3747ms 200 application/json; charset=utf-8 
+2020-07-28 20:54:20.1020|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2.0 OPTIONS https://localhost:44309/api/products/0?page=1   
+2020-07-28 20:54:20.1076|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2020-07-28 20:54:20.1076|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 8.8645ms 204  
+2020-07-28 20:54:20.1076|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2.0 GET https://localhost:44309/api/products/0?page=1   
+2020-07-28 20:54:20.1076|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2020-07-28 20:54:20.1076|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2020-07-28 20:54:20.1206|2|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|Successfully validated the token. 
+2020-07-28 20:54:20.1206|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'ECommerce.Api.Controllers.ProductsController.GetProducts (ECommerce.Api)' 
+2020-07-28 20:54:20.1206|3|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "GetProducts", controller = "Products"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetProducts(System.Nullable`1[System.Int32], Int32) on controller ECommerce.Api.Controllers.ProductsController (ECommerce.Api). 
+2020-07-28 20:54:20.1448|1|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'ECommerce.Api.Models.ProductListModel'. 
+2020-07-28 20:54:20.1448|2|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action ECommerce.Api.Controllers.ProductsController.GetProducts (ECommerce.Api) in 18.8578ms 
+2020-07-28 20:54:20.1448|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'ECommerce.Api.Controllers.ProductsController.GetProducts (ECommerce.Api)' 
+2020-07-28 20:54:20.1529|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 37.1875ms 200 application/json; charset=utf-8 
+2020-07-28 21:37:53.1004|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2.0 OPTIONS https://localhost:44309/api/categories   
+2020-07-28 21:37:53.1074|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2020-07-28 21:37:53.1074|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 24.3671ms 204  
+2020-07-28 21:37:53.1074|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2.0 GET https://localhost:44309/api/categories   
+2020-07-28 21:37:53.1338|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2020-07-28 21:37:53.1338|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2020-07-28 21:37:53.1498|2|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|Successfully validated the token. 
+2020-07-28 21:37:53.1557|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'ECommerce.Api.Controllers.CategoriesController.GetCategories (ECommerce.Api)' 
+2020-07-28 21:37:53.1557|3|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "GetCategories", controller = "Categories"}. Executing controller action with signature System.Linq.IQueryable`1[ECommerce.Entity.Models.Category] GetCategories() on controller ECommerce.Api.Controllers.CategoriesController (ECommerce.Api). 
+2020-07-28 21:37:53.2592|1|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[ECommerce.Entity.Models.Category, ECommerce.Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+2020-07-28 21:37:53.2642|2|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action ECommerce.Api.Controllers.CategoriesController.GetCategories (ECommerce.Api) in 98.9399ms 
+2020-07-28 21:37:53.2642|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'ECommerce.Api.Controllers.CategoriesController.GetCategories (ECommerce.Api)' 
+2020-07-28 21:37:53.2642|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 138.2267ms 200 application/json; charset=utf-8 
+2020-07-28 21:37:53.2859|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2.0 OPTIONS https://localhost:44309/api/products/0?page=1   
+2020-07-28 21:37:53.2859|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2020-07-28 21:37:53.2859|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 4.0982ms 204  
+2020-07-28 21:37:53.2859|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2.0 GET https://localhost:44309/api/products/0?page=1   
+2020-07-28 21:37:53.2951|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2020-07-28 21:37:53.2951|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2020-07-28 21:37:53.2951|2|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|Successfully validated the token. 
+2020-07-28 21:37:53.2951|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'ECommerce.Api.Controllers.ProductsController.GetProducts (ECommerce.Api)' 
+2020-07-28 21:37:53.2951|3|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "GetProducts", controller = "Products"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetProducts(System.Nullable`1[System.Int32], Int32) on controller ECommerce.Api.Controllers.ProductsController (ECommerce.Api). 
+2020-07-28 21:37:53.3168|1|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'ECommerce.Api.Models.ProductListModel'. 
+2020-07-28 21:37:53.3299|2|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action ECommerce.Api.Controllers.ProductsController.GetProducts (ECommerce.Api) in 27.4392ms 
+2020-07-28 21:37:53.3299|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'ECommerce.Api.Controllers.ProductsController.GetProducts (ECommerce.Api)' 
+2020-07-28 21:37:53.3299|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 38.2026ms 200 application/json; charset=utf-8 
+2020-07-28 21:37:55.9804|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2.0 OPTIONS https://localhost:44309/api/products/getById/22   
+2020-07-28 21:37:55.9804|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2020-07-28 21:37:55.9829|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 2.9095ms 204  
+2020-07-28 21:37:55.9829|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2.0 GET https://localhost:44309/api/products/getById/22   
+2020-07-28 21:37:55.9829|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2020-07-28 21:37:55.9829|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2020-07-28 21:37:55.9829|2|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|Successfully validated the token. 
+2020-07-28 21:37:55.9829|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'ECommerce.Api.Controllers.ProductsController.GetById (ECommerce.Api)' 
+2020-07-28 21:37:55.9829|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2.0 GET https://localhost:44309//img/undefined   
+2020-07-28 21:37:55.9829|3|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "GetById", controller = "Products"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetById(Int32) on controller ECommerce.Api.Controllers.ProductsController (ECommerce.Api). 
+2020-07-28 21:37:55.9829|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 2.0299ms 404  
+2020-07-28 21:37:56.0147|1|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type '<>f__AnonymousType4`7[[System.Int32, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Nullable`1[[System.Decimal, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[<>f__AnonymousType5`3[[System.Int32, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], ECommerce.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'. 
+2020-07-28 21:37:56.0147|2|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action ECommerce.Api.Controllers.ProductsController.GetById (ECommerce.Api) in 20.1363ms 
+2020-07-28 21:37:56.0147|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'ECommerce.Api.Controllers.ProductsController.GetById (ECommerce.Api)' 
+2020-07-28 21:37:56.0147|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 34.3423ms 200 application/json; charset=utf-8 
+2020-07-28 21:39:52.9120|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2.0 OPTIONS https://localhost:44309/api/categories   
+2020-07-28 21:39:52.9120|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2020-07-28 21:39:52.9120|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 4.0469ms 204  
+2020-07-28 21:39:52.9279|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2.0 GET https://localhost:44309/api/categories   
+2020-07-28 21:39:52.9279|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2020-07-28 21:39:52.9279|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2020-07-28 21:39:52.9279|2|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|Successfully validated the token. 
+2020-07-28 21:39:52.9279|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'ECommerce.Api.Controllers.CategoriesController.GetCategories (ECommerce.Api)' 
+2020-07-28 21:39:52.9279|3|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "GetCategories", controller = "Categories"}. Executing controller action with signature System.Linq.IQueryable`1[ECommerce.Entity.Models.Category] GetCategories() on controller ECommerce.Api.Controllers.CategoriesController (ECommerce.Api). 
+2020-07-28 21:39:52.9436|1|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[ECommerce.Entity.Models.Category, ECommerce.Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+2020-07-28 21:39:52.9436|2|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action ECommerce.Api.Controllers.CategoriesController.GetCategories (ECommerce.Api) in 12.3617ms 
+2020-07-28 21:39:52.9436|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'ECommerce.Api.Controllers.CategoriesController.GetCategories (ECommerce.Api)' 
+2020-07-28 21:39:52.9436|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 22.3064ms 200 application/json; charset=utf-8 
+2020-07-28 21:39:52.9603|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2.0 OPTIONS https://localhost:44309/api/products/0?page=1   
+2020-07-28 21:39:52.9603|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2020-07-28 21:39:52.9603|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 1.8209ms 204  
+2020-07-28 21:39:52.9603|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2.0 GET https://localhost:44309/api/products/0?page=1   
+2020-07-28 21:39:52.9603|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2020-07-28 21:39:52.9665|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2020-07-28 21:39:52.9665|2|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|Successfully validated the token. 
+2020-07-28 21:39:52.9665|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'ECommerce.Api.Controllers.ProductsController.GetProducts (ECommerce.Api)' 
+2020-07-28 21:39:52.9665|3|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "GetProducts", controller = "Products"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetProducts(System.Nullable`1[System.Int32], Int32) on controller ECommerce.Api.Controllers.ProductsController (ECommerce.Api). 
+2020-07-28 21:39:52.9665|1|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'ECommerce.Api.Models.ProductListModel'. 
+2020-07-28 21:39:52.9825|2|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action ECommerce.Api.Controllers.ProductsController.GetProducts (ECommerce.Api) in 6.9039ms 
+2020-07-28 21:39:52.9825|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'ECommerce.Api.Controllers.ProductsController.GetProducts (ECommerce.Api)' 
+2020-07-28 21:39:52.9825|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 26.5987ms 200 application/json; charset=utf-8 
+2020-07-28 21:39:54.5545|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2.0 OPTIONS https://localhost:44309/api/products/0?page=2   
+2020-07-28 21:39:54.5545|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2020-07-28 21:39:54.5545|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 4.8669ms 204  
+2020-07-28 21:39:54.5613|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2.0 GET https://localhost:44309/api/products/0?page=2   
+2020-07-28 21:39:54.5613|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2020-07-28 21:39:54.5613|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2020-07-28 21:39:54.5613|2|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|Successfully validated the token. 
+2020-07-28 21:39:54.5613|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'ECommerce.Api.Controllers.ProductsController.GetProducts (ECommerce.Api)' 
+2020-07-28 21:39:54.5613|3|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "GetProducts", controller = "Products"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetProducts(System.Nullable`1[System.Int32], Int32) on controller ECommerce.Api.Controllers.ProductsController (ECommerce.Api). 
+2020-07-28 21:39:54.6117|1|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'ECommerce.Api.Models.ProductListModel'. 
+2020-07-28 21:39:54.6117|2|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action ECommerce.Api.Controllers.ProductsController.GetProducts (ECommerce.Api) in 38.8189ms 
+2020-07-28 21:39:54.6117|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'ECommerce.Api.Controllers.ProductsController.GetProducts (ECommerce.Api)' 
+2020-07-28 21:39:54.6117|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 57.4584ms 200 application/json; charset=utf-8 
+2020-07-28 21:39:56.5920|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2.0 OPTIONS https://localhost:44309/api/products/getById/13   
+2020-07-28 21:39:56.5920|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2.0 GET https://localhost:44309//img/undefined   
+2020-07-28 21:39:56.5920|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2020-07-28 21:39:56.5920|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 2.3242ms 404  
+2020-07-28 21:39:56.5920|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 2.856ms 204  
+2020-07-28 21:39:56.5920|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2.0 GET https://localhost:44309/api/products/getById/13   
+2020-07-28 21:39:56.5920|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2020-07-28 21:39:56.5920|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2020-07-28 21:39:56.5920|2|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|Successfully validated the token. 
+2020-07-28 21:39:56.5920|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'ECommerce.Api.Controllers.ProductsController.GetById (ECommerce.Api)' 
+2020-07-28 21:39:56.6081|3|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "GetById", controller = "Products"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetById(Int32) on controller ECommerce.Api.Controllers.ProductsController (ECommerce.Api). 
+2020-07-28 21:39:56.6081|1|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type '<>f__AnonymousType4`7[[System.Int32, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Nullable`1[[System.Decimal, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[<>f__AnonymousType5`3[[System.Int32, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], ECommerce.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'. 
+2020-07-28 21:39:56.6081|2|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action ECommerce.Api.Controllers.ProductsController.GetById (ECommerce.Api) in 8.7455ms 
+2020-07-28 21:39:56.6081|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'ECommerce.Api.Controllers.ProductsController.GetById (ECommerce.Api)' 
+2020-07-28 21:39:56.6232|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 23.6374ms 200 application/json; charset=utf-8 
+2020-07-28 21:40:04.0019|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2.0 OPTIONS https://localhost:44309/api/categories   
+2020-07-28 21:40:04.0019|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2020-07-28 21:40:04.0019|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 2.3423ms 204  
+2020-07-28 21:40:04.0019|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2.0 GET https://localhost:44309/api/categories   
+2020-07-28 21:40:04.0019|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2020-07-28 21:40:04.0019|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2020-07-28 21:40:04.0019|2|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|Successfully validated the token. 
+2020-07-28 21:40:04.0019|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'ECommerce.Api.Controllers.CategoriesController.GetCategories (ECommerce.Api)' 
+2020-07-28 21:40:04.0019|3|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "GetCategories", controller = "Categories"}. Executing controller action with signature System.Linq.IQueryable`1[ECommerce.Entity.Models.Category] GetCategories() on controller ECommerce.Api.Controllers.CategoriesController (ECommerce.Api). 
+2020-07-28 21:40:04.0173|1|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[ECommerce.Entity.Models.Category, ECommerce.Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+2020-07-28 21:40:04.0173|2|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action ECommerce.Api.Controllers.CategoriesController.GetCategories (ECommerce.Api) in 7.8246ms 
+2020-07-28 21:40:04.0173|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'ECommerce.Api.Controllers.CategoriesController.GetCategories (ECommerce.Api)' 
+2020-07-28 21:40:04.0173|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 14.8074ms 200 application/json; charset=utf-8 
+2020-07-28 21:40:04.0173|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2.0 OPTIONS https://localhost:44309/api/products/0?page=1   
+2020-07-28 21:40:04.0173|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2020-07-28 21:40:04.0173|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 1.6799ms 204  
+2020-07-28 21:40:04.0293|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2.0 GET https://localhost:44309/api/products/0?page=1   
+2020-07-28 21:40:04.0293|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2020-07-28 21:40:04.0293|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2020-07-28 21:40:04.0293|2|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|Successfully validated the token. 
+2020-07-28 21:40:04.0293|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'ECommerce.Api.Controllers.ProductsController.GetProducts (ECommerce.Api)' 
+2020-07-28 21:40:04.0293|3|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "GetProducts", controller = "Products"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetProducts(System.Nullable`1[System.Int32], Int32) on controller ECommerce.Api.Controllers.ProductsController (ECommerce.Api). 
+2020-07-28 21:40:04.0293|1|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'ECommerce.Api.Models.ProductListModel'. 
+2020-07-28 21:40:04.0462|2|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action ECommerce.Api.Controllers.ProductsController.GetProducts (ECommerce.Api) in 6.0597ms 
+2020-07-28 21:40:04.0462|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'ECommerce.Api.Controllers.ProductsController.GetProducts (ECommerce.Api)' 
+2020-07-28 21:40:04.0462|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 20.5087ms 200 application/json; charset=utf-8 
+2020-07-28 22:05:26.7503|30000|WARN|Microsoft.EntityFrameworkCore.Model.Validation|No type was specified for the decimal column 'Price' on entity type 'OrderItem'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'. 
+2020-07-28 22:05:26.7814|30000|WARN|Microsoft.EntityFrameworkCore.Model.Validation|No type was specified for the decimal column 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'. 
+2020-07-28 22:05:26.8065|10403|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 3.1.0 initialized 'ECommerceContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None 
+2020-07-28 22:05:43.0045|30000|WARN|Microsoft.EntityFrameworkCore.Model.Validation|No type was specified for the decimal column 'Price' on entity type 'OrderItem'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'. 
+2020-07-28 22:05:43.0346|30000|WARN|Microsoft.EntityFrameworkCore.Model.Validation|No type was specified for the decimal column 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'. 
+2020-07-28 22:05:43.0587|10403|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 3.1.0 initialized 'ECommerceContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None 
+2020-07-28 22:05:43.2843|20101|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (19ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT 1 
+2020-07-28 22:05:43.3110|20101|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (15ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]'); 
+2020-07-28 22:05:43.3110|20101|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT 1 
+2020-07-28 22:05:43.3110|20101|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]'); 
+2020-07-28 22:05:43.3336|20101|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (5ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId]; 
+2020-07-28 22:05:43.3498|20402|INFO|Microsoft.EntityFrameworkCore.Migrations|Applying migration '20200728190526_OrderManagment'. 
+2020-07-28 22:05:43.4339|20101|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (29ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [Orders] (
+    [Id] int NOT NULL IDENTITY,
+    [OrderNumber] nvarchar(max) NULL,
+    [OrderDate] datetime2 NULL,
+    [UserId] int NULL,
+    [Name] nvarchar(max) NULL,
+    [Surname] nvarchar(max) NULL,
+    [Address] nvarchar(max) NULL,
+    [City] nvarchar(max) NULL,
+    [Phone] nvarchar(max) NULL,
+    [Email] nvarchar(max) NULL,
+    [OrderNote] nvarchar(max) NULL,
+    [PaymentId] nvarchar(max) NULL,
+    [PaymentToken] nvarchar(max) NULL,
+    [ConcersationId] nvarchar(max) NULL,
+    [OrderState] int NOT NULL,
+    [PaymentType] int NOT NULL,
+    CONSTRAINT [PK_Orders] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_Orders_Users_UserId] FOREIGN KEY ([UserId]) REFERENCES [Users] ([Id]) ON DELETE NO ACTION
+); 
+2020-07-28 22:05:43.4339|20101|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (4ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [OrderItems] (
+    [Id] int NOT NULL IDENTITY,
+    [IsActive] bit NOT NULL,
+    [CreatedDate] datetime2 NOT NULL,
+    [OrderId] int NULL,
+    [ProductId] int NULL,
+    [Quantity] int NULL,
+    [Price] decimal(18,2) NULL,
+    CONSTRAINT [PK_OrderItems] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_OrderItems_Orders_OrderId] FOREIGN KEY ([OrderId]) REFERENCES [Orders] ([Id]) ON DELETE NO ACTION,
+    CONSTRAINT [FK_OrderItems_Products_ProductId] FOREIGN KEY ([ProductId]) REFERENCES [Products] ([Id]) ON DELETE NO ACTION
+); 
+2020-07-28 22:05:43.4339|20101|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (5ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE INDEX [IX_OrderItems_OrderId] ON [OrderItems] ([OrderId]); 
+2020-07-28 22:05:43.4339|20101|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE INDEX [IX_OrderItems_ProductId] ON [OrderItems] ([ProductId]); 
+2020-07-28 22:05:43.4455|20101|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE INDEX [IX_Orders_UserId] ON [Orders] ([UserId]); 
+2020-07-28 22:05:43.4455|20101|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (4ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20200728190526_OrderManagment', N'3.1.0'); 

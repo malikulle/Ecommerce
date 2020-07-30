@@ -1,0 +1,16 @@
+C:\Users\malik\Desktop\Projects\ECommerceShop\ECommerce\ECommerce.Business\bin\Release\netstandard2.0\ECommerce.Business.deps.json
+C:\Users\malik\Desktop\Projects\ECommerceShop\ECommerce\ECommerce.Business\bin\Release\netstandard2.0\ECommerce.Business.dll
+C:\Users\malik\Desktop\Projects\ECommerceShop\ECommerce\ECommerce.Business\bin\Release\netstandard2.0\ECommerce.Business.pdb
+C:\Users\malik\Desktop\Projects\ECommerceShop\ECommerce\ECommerce.Business\bin\Release\netstandard2.0\ECommerce.Core.dll
+C:\Users\malik\Desktop\Projects\ECommerceShop\ECommerce\ECommerce.Business\bin\Release\netstandard2.0\ECommerce.DataAccess.dll
+C:\Users\malik\Desktop\Projects\ECommerceShop\ECommerce\ECommerce.Business\bin\Release\netstandard2.0\ECommerce.Entity.dll
+C:\Users\malik\Desktop\Projects\ECommerceShop\ECommerce\ECommerce.Business\bin\Release\netstandard2.0\ECommerce.DataAccess.pdb
+C:\Users\malik\Desktop\Projects\ECommerceShop\ECommerce\ECommerce.Business\bin\Release\netstandard2.0\ECommerce.Entity.pdb
+C:\Users\malik\Desktop\Projects\ECommerceShop\ECommerce\ECommerce.Business\bin\Release\netstandard2.0\ECommerce.Core.pdb
+C:\Users\malik\Desktop\Projects\ECommerceShop\ECommerce\ECommerce.Business\obj\Release\netstandard2.0\ECommerce.Business.csprojAssemblyReference.cache
+C:\Users\malik\Desktop\Projects\ECommerceShop\ECommerce\ECommerce.Business\obj\Release\netstandard2.0\ECommerce.Business.AssemblyInfoInputs.cache
+C:\Users\malik\Desktop\Projects\ECommerceShop\ECommerce\ECommerce.Business\obj\Release\netstandard2.0\ECommerce.Business.AssemblyInfo.cs
+C:\Users\malik\Desktop\Projects\ECommerceShop\ECommerce\ECommerce.Business\obj\Release\netstandard2.0\ECommerce.Business.csproj.CoreCompileInputs.cache
+C:\Users\malik\Desktop\Projects\ECommerceShop\ECommerce\ECommerce.Business\obj\Release\netstandard2.0\ECommerce.Business.csproj.CopyComplete
+C:\Users\malik\Desktop\Projects\ECommerceShop\ECommerce\ECommerce.Business\obj\Release\netstandard2.0\ECommerce.Business.dll
+C:\Users\malik\Desktop\Projects\ECommerceShop\ECommerce\ECommerce.Business\obj\Release\netstandard2.0\ECommerce.Business.pdb

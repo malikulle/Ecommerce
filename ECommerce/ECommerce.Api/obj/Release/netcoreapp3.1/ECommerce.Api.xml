@@ -1,0 +1,219 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ECommerce.Api</name>
+    </assembly>
+    <members>
+        <member name="T:ECommerce.Api.Controllers.AuthController">
+            <summary>
+            Login Register Contoller
+            </summary>
+        </member>
+        <member name="M:ECommerce.Api.Controllers.AuthController.#ctor(ECommerce.Business.Abstract.IUserService,Microsoft.Extensions.Options.IOptions{ECommerce.Api.appSettings_json},ECommerce.Business.Abstract.IEmailService)">
+            <summary>
+            
+            </summary>
+            <param name="userService"></param>
+            <param name="configuration"></param>
+        </member>
+        <member name="M:ECommerce.Api.Controllers.AuthController.Register(ECommerce.Api.Models.RegisterUserDto)">
+            <summary>
+            Register User Apı
+            </summary>
+        </member>
+        <member name="M:ECommerce.Api.Controllers.AuthController.VerifyAccount(System.String)">
+            <summary>
+            Verify User
+            </summary>
+            <param name="token"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ECommerce.Api.Controllers.AuthController.Login(ECommerce.Api.Models.LoginUserDto)">
+            <summary>
+            Login Web Site API
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ECommerce.Api.Controllers.AuthController.IsValidEmail(System.String)">
+            <summary>
+            Check Email is email
+            </summary>
+            <param name="email"></param>
+            <returns></returns>
+        </member>
+        <member name="T:ECommerce.Api.Controllers.CategoriesController">
+            <summary>
+            Category API
+            </summary>
+        </member>
+        <member name="M:ECommerce.Api.Controllers.CategoriesController.#ctor(ECommerce.Business.Abstract.ICategoryService)">
+            <summary>
+            Category API
+            </summary>
+            <param name="categoryService"></param>
+        </member>
+        <member name="M:ECommerce.Api.Controllers.CategoriesController.GetCategories">
+            <summary>
+            Getting All Categories
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ECommerce.Api.Controllers.CategoriesController.Post(ECommerce.Entity.Models.Category)">
+            <summary>
+            Create Category
+            </summary>
+            <param name="category"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ECommerce.Api.Controllers.CategoriesController.Put(System.Int32,ECommerce.Entity.Models.Category)">
+            <summary>
+            Update Category
+            </summary>
+            <param name="key"></param>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ECommerce.Api.Controllers.CategoriesController.Delete(System.Int32)">
+            <summary>
+            Delete category with product categories
+            </summary>
+            <param name="key"></param>
+            <returns></returns>
+        </member>
+        <member name="T:ECommerce.Api.Controllers.OrdersController">
+            <summary>
+            Order Controller
+            </summary>
+        </member>
+        <member name="M:ECommerce.Api.Controllers.OrdersController.GetOrders">
+            <summary>
+            Getting Orders
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:ECommerce.Api.Controllers.ProductsController">
+            <summary>
+            Product API Controller
+            </summary>
+        </member>
+        <member name="M:ECommerce.Api.Controllers.ProductsController.#ctor(ECommerce.Business.Abstract.IProductService,Microsoft.AspNetCore.Hosting.IWebHostEnvironment)">
+            <summary>
+            Product API Controller
+            </summary>
+            <param name="productService"></param>
+        </member>
+        <member name="M:ECommerce.Api.Controllers.ProductsController.GetProducts(System.Nullable{System.Int32},System.Int32)">
+            <summary>
+            Getting products. If 0 is sended as a parameter all product will come
+            </summary>
+            <remarks>
+            Example URL : https://localhost:44309/api/products/0?page=1
+            </remarks>
+            <param name="category">CategoryId</param>
+            <param name="page">Page ındex</param>
+            <returns></returns>
+        </member>
+        <member name="M:ECommerce.Api.Controllers.ProductsController.GetProdcuts(System.String)">
+            <summary>
+            Getting All Products whitout any pagination
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ECommerce.Api.Controllers.ProductsController.Post(ECommerce.Api.Models.ProductModel)">
+            <summary>
+            Insert Product
+            </summary>
+            <param name="entity"></param>
+            <remarks>
+            Example Json :{
+            "name": "string",
+            "imageUrl": "string",
+            "price": 0,
+            "description": "string",
+            "stock": 0,}
+            
+            </remarks>
+            <returns></returns>
+        </member>
+        <member name="M:ECommerce.Api.Controllers.ProductsController.GetById(System.Int32)">
+            <summary>
+            Getting Single Product 
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ECommerce.Api.Controllers.ProductsController.Delete(System.Int32)">
+            <summary>
+            Delete Product Service
+            </summary>
+            <param name="key"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ECommerce.Api.Controllers.ProductsController.Put(System.Int32,ECommerce.Api.Models.ProductModel)">
+            <summary>
+            Product Edit
+            </summary>
+            <param name="key"></param>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="T:ECommerce.Api.Hashing.HashingHelper">
+            <summary>
+             Helper for hashing and verify it
+            </summary>
+        </member>
+        <member name="M:ECommerce.Api.Hashing.HashingHelper.CreatePasswordHash(System.String,System.Byte[]@,System.Byte[]@)">
+            <summary>
+            Hashing password
+            </summary>
+            <param name="password"></param>
+            <param name="passwordHash"></param>
+            <param name="passwordSalt"></param>
+        </member>
+        <member name="M:ECommerce.Api.Hashing.HashingHelper.VerifyPasswordHash(System.String,System.Byte[],System.Byte[])">
+            <summary>
+            Verfiying password is true or not
+            </summary>
+            <param name="password"></param>
+            <param name="passwordHash"></param>
+            <param name="passwordSalt"></param>
+            <returns></returns>
+        </member>
+        <member name="T:ECommerce.Api.JWT.ECommerceClaimTypes">
+            <summary>
+            Calims
+            </summary>
+        </member>
+        <member name="T:ECommerce.Api.Models.OrderModel">
+            <summary>
+            Order Model For Frontend
+            </summary>
+        </member>
+        <member name="T:ECommerce.Api.Models.RegisterUserDto">
+            <summary>
+            Register User Model
+            </summary>
+        </member>
+        <member name="T:ECommerce.Api.Models.ResponseModel">
+            <summary>
+            API Response model
+            </summary>
+        </member>
+        <member name="P:ECommerce.Api.Models.ResponseModel.Status">
+            <summary>
+            ex .  200 ,400
+            </summary>
+        </member>
+        <member name="P:ECommerce.Api.Models.ResponseModel.Result">
+            <summary>
+            ex . true,false
+            </summary>
+        </member>
+        <member name="P:ECommerce.Api.Models.ResponseModel.Message">
+            <summary>
+            string
+            </summary>
+        </member>
+    </members>
+</doc>
